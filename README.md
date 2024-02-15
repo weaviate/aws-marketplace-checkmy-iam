@@ -37,6 +37,7 @@ pip3 install -r requirements.txt
 python3 discover-aws-iam-resource-access.py weaviate-aws-marketplace.yaml
 ```
 
+![Result of IAM Check](preview.png "Result of a successful IAM Check")
 
 ## Credits 
 Taken and modified from https://github.com/aws-samples/discover-aws-iam-resource-access 
