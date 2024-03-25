@@ -12,6 +12,13 @@ Weaviate Cloudformation Stack from the AWS Marketplace.
 Please install `aws-cli` and login with your user which is being used later to install
 Weaviate via AWS Marketplace.
 
+Please ensure your AWS account has the following permissions to run this script:
+```text
+iam:ListRoles
+iam:ListUsers
+iam:SimulatePrincipalPolicy
+```
+
 ```bash
 # install aws cli via python directly
 $ python -m pip install awscli
